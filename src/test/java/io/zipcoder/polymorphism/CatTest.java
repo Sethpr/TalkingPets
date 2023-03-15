@@ -12,4 +12,12 @@ public class CatTest {
         Assert.assertEquals(expected, actual);
 
     }
+
+    @Test
+    public void speakTest(){
+        Cat cat = new Cat(null);
+        String actual = cat.speak();
+        String expected = "Meow!";
+        Assert.assertEquals(expected, actual);
+    }
 }

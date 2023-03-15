@@ -14,5 +14,13 @@ public class BirdTest {
         Assert.assertEquals(expected, actual);
 
     }
+
+    @Test
+    public void speakTest(){
+        Bird bird = new Bird(null);
+        String actual = bird.speak();
+        String expected = "Chirp chirp!";
+        Assert.assertEquals(expected, actual);
+    }
 }
 

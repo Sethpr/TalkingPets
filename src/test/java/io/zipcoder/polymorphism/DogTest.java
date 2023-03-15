@@ -14,5 +14,13 @@ import static org.junit.jupiter.api.Assertions.*;
    Assert.assertEquals(expected, actual);
 
   }
+  @Test
+  public void speakTest(){
+   Dog dog = new Dog(null);
+   String expected = "Woof!";
+   String actual = dog.speak();
+   Assert.assertEquals(expected, actual);
+
+  }
  }
 
