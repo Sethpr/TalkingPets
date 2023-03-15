@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BirdTest {
+public class BirdTest {
     @Test
     public void nameTest() {
         Bird bird = new Bird("Tweety");
