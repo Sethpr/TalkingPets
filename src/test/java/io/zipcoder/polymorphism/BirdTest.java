@@ -9,10 +9,10 @@ public class BirdTest {
     @Test
     public void nameTest() {
         Bird bird = new Bird("Tweety");
-        String actual = "";
-        String expected = bird.name;
+        String actual = "bird.name";
+        String expected = "tweety";
         Assert.assertEquals(expected, actual);
 
     }
-
 }
+

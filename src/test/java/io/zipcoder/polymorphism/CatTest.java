@@ -7,8 +7,8 @@ public class CatTest {
     @Test
     public void nameTest() {
         Cat cat = new Cat("Milo");
-        String actual = "";
-        String expected = cat.name;
+        String actual = cat.name;
+        String expected = "Milo";
         Assert.assertEquals(expected, actual);
 
     }
