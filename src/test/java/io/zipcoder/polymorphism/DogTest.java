@@ -9,8 +9,16 @@ import static org.junit.jupiter.api.Assertions.*;
   @Test
   public void nameTest() {
    Dog dog = new Dog("Spunky");
-   String actual = "";
-   String expected = dog.name;
+   String actual = dog.name;
+   String expected = "Spunky";
+   Assert.assertEquals(expected, actual);
+
+  }
+  @Test
+  public void speakTest(){
+   Dog dog = new Dog(null);
+   String expected = "Woof!";
+   String actual = dog.speak();
    Assert.assertEquals(expected, actual);
 
   }
