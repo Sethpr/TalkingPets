@@ -9,8 +9,8 @@ public class BirdTest {
     @Test
     public void nameTest() {
         Bird bird = new Bird("Tweety");
-        String actual = "bird.name";
-        String expected = "tweety";
+        String actual = bird.name;
+        String expected = "Tweety";
         Assert.assertEquals(expected, actual);
 
     }

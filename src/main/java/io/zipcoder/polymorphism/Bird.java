@@ -8,6 +8,6 @@ public class Bird extends Pet{
     }
 
     public String speak() {
-        return "Tweet";
+        return "Chirp chirp!";
     }
 }
